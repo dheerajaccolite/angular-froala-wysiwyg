@@ -96,7 +96,7 @@ import { FroalaEditorModule, FroalaViewModule } from 'angular-froala-wysiwyg';
 
 ```json
 "scripts": [
-  "./node_modules/froala-editor/js/froala_editor.pkgd.min.js"
+  "./node_modules/froala-editor/js/froala_editor.pkgd.legacy.min.js"
 ]
 ```
 
@@ -416,7 +416,7 @@ npm install angular-froala-wysiwyg --save
 <link rel="stylesheet" href="node_modules/froala-editor/css/froala_editor.pkgd.min.css">
 <link rel="stylesheet" href="node_modules/froala-editor/css/froala_style.min.css">
 
-<script src="node_modules/froala-editor/js/froala_editor.pkgd.min.js"></script>
+<script src="node_modules/froala-editor/js/froala_editor.pkgd.legacy.min.js"></script>
 ```
 
 - open `src/app/app.module.ts` and add
@@ -504,7 +504,7 @@ npm install angular-froala-wysiwyg --save
 <link rel="stylesheet" href="assets/froala-editor/css/froala_editor.pkgd.min.css">
 <link rel="stylesheet" href="assets/froala-editor/css/froala_style.min.css">
 
-<script src="assets/froala-editor/js/froala_editor.pkgd.min.js"></script>
+<script src="assets/froala-editor/js/froala_editor.pkgd.legacy.min.js"></script>
 ```
 
 - open `src/app/app.module.ts` and add
