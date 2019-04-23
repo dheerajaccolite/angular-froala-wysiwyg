@@ -338,7 +338,7 @@ import { ExtendPackages } from './seed.config.interfaces';
 
 this.NPM_DEPENDENCIES = [
   ...this.NPM_DEPENDENCIES,
-  { src: 'froala-editor/js/froala_editor.pkgd.min.js', inject: 'libs' },
+  { src: 'froala-editor/js/froala_editor.pkgd.legacy.min.js', inject: 'libs' },
   { src: 'froala-editor/css/froala_editor.pkgd.min.css', inject: true },
   { src: 'froala-editor/css/froala_style.min.css', inject: true }
 ];
